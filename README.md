@@ -1,8 +1,6 @@
 # BibraryBookTracker
 CGS3853 Project #5: Building a Node.js API
 
-![Alt text](/Bibrary Book Tracker/screenshots?raw=true "Optional Title")
-
 ## Application Purpose
 BibraryBookTracker is a book tracker built with Node.js and Express. The Express server provides a REST API for a small book directory, and the frontend uses `fetch()` to communicate with it. You can view all books, click a book to see its details, and add new books through a form.
 
@@ -14,10 +12,11 @@ Books are stored in a JavaScript array, so any books you add will reset when the
 ├── package.json
 ├── package-lock.json
 ├── README.md
-└── public/
-    ├── index.html     # Page layout and form
-    ├── style.css      # Styling
-    └── script.js      # fetch() calls to the API
+├── public/
+│   ├── index.html     # Page layout and form
+│   ├── style.css      # Styling
+│   └── script.js      # fetch() calls to the API
+└── screenshots/       # Screenshots shown below
 ```
 
 ## Installing Dependencies
@@ -50,8 +49,18 @@ This runs `node server.js`. The server starts on port 3000, and you should see `
 6. To test error handling, submit the form with the author left blank. The page shows "Title and author are required." from the server's 400 response.
 
 ## Screenshots
-Screenshots are included in the screenshots folder:
-1. Frontend displaying books from the backend
-2. JSON response from `GET /api/books`
-3. A new book added through the form (POST)
-4. Error message when a required field is missing
+
+### Server running
+![Server running](screenshots/ProofServerisup.png)
+
+### Frontend displaying books from the backend
+![Frontend displaying books](screenshots/ApplicationScreenshot.png)
+
+### JSON response from `GET /api/books`
+![GET /api/books JSON response](screenshots/Get-response.png)
+
+### A new book added through the form (POST)
+![New book added through the form](screenshots/Post-Success.png)
+
+### Error message when a required field is missing
+![Error message for missing field](screenshots/error.png)
