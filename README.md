@@ -1,6 +1,8 @@
 # BibraryBookTracker
 CGS3853 Project #5: Building a Node.js API
 
+![Alt text](/Bibrary Book Tracker/screenshots?raw=true "Optional Title")
+
 ## Application Purpose
 BibraryBookTracker is a book tracker built with Node.js and Express. The Express server provides a REST API for a small book directory, and the frontend uses `fetch()` to communicate with it. You can view all books, click a book to see its details, and add new books through a form.
 
