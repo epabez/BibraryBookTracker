@@ -44,7 +44,7 @@ This runs `node server.js`. The server starts on port 3000, and you should see `
 
 ## Testing the Application in StackBlitz
 1. Open the project's StackBlitz link, then run `npm install` and `npm start` in the terminal.
-2. The preview opens on the right side. Click **Show All Books** to load the books from the API.
+2. The preview opens on the right side.
 3. Click any book to see its details, including the description.
 4. To test the GET endpoints directly, add the route to the end of the **preview** URL (not the editor URL). For example, if the preview URL is `https://TEST.webcontainer.io`, go to `https://TEST.webcontainer.io/api/books` to see all books as JSON, or `https://TEST.webcontainer.io/api/books/2` for a single book.
 5. To test the POST endpoint, fill out the **Add a Book** form with a title and author and submit it. A success message appears and the new book shows up in the list.
